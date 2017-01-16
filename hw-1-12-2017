@@ -1,3 +1,5 @@
 Absolute vs Relative Paths - use "~" to navigate to her home directory 
 
 Relative Path Resolution - ../backup display refers to the /Users/backup
+
+ls Reading Comprehension - the "ls" without a directory argument lists the files and directories in the current directory and also it uses the absolute path explictly (correct answer is #4, which is both #1 & #2)
