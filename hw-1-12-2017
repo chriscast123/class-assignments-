@@ -1,1 +1,3 @@
 Absolute vs Relative Paths - use "~" to navigate to her home directory 
+
+Relative Path Resolution - ../backup display refers to the /Users/backup
