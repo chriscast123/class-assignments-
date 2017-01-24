@@ -3,3 +3,103 @@
 ../../../../../Desktop/eeb-177/class-assignments/classwork-thurs-1-19-2017
 ../../../../../Desktop/eeb-177/class-assignments/classwork-tues-1-17-2017.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-thurs-1-19-2017.txt
+  938  cd homework/
+  939  git add week-2-hw-eeb174.txt 
+  940  git commit -m "answer for question 7" 
+  941  git push
+  942  echo "Using grep - 3. grep -w of haiku.txt" >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
+  943  sudo gedit week-2-hw-eeb174.txt 
+  944  git add week-2-hw-eeb174.txt 
+  945  git commit -m "answers for question 8-1"
+  946  git push
+  947  cd Desktop
+  948  cd eeb-177
+  949  cd class-assignments
+  950  touch classwork-tues-1-24-2017.txt
+  951  git add classwork-tues-1-24-2017.txt 
+  952  git commit -m "class work for 1-24-2017"
+  953  git push
+  954  cd ..
+  955  cd CSB
+  956  cd unix
+  957  cd sandbox
+  958  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  959  less cep-taxa.txt
+  960  grep Orchidacea cep-taxa.txt
+  961  grep -n Orchidacea cep-taxa.txt
+  962  grep -c Orchidacea cep-taxa.txt
+  963  grep falcon cep-taxa.txt
+  964  grep Falcon cep-taxa.txt
+  965  grep -i Falcon cep-taxa.txt
+  966  grep -i Macaws cep-taxa.txt
+  967  grep -i macaws cep-taxa.txt
+  968  grep macaws cep-taxa.txt
+  969  grep -i ara cep-taxa.txt
+  970  grep -i -w -B 3 cebus cep-taxa.txt
+  971  grep -i -w -n iguanas cep-taxa.txt
+  972  grep -i -n iguanas cep-taxa.txt
+  973  grep -wn iguanas cep-taxa.txt
+  974  grep -n -i -w iguana cep-taxa.txt 
+  975  grep -v -i -w iguana cep-taxa.txt 
+  976  grep -v -i -w -c iguana cep-taxa.txt 
+  977  grep -wnicv iguana cep-taxa.txt 
+  978  grep -wnicv ara cep-taxa.txt 
+  979  grep -wnicv ara cep-taxa.txt > non-macaws.txt
+  980  ls -l
+  981  find d ."
+  982  cd ..
+  983  find d .
+  984  cd Desktop
+  985  cd CSB
+  986  cd unix
+  987  cd sandbox
+  988  find d .
+  989  find d .*
+  990  find ../data/
+  991  find ../sandbox/
+  992  find ../data/
+  993  find ../data/ wc -l
+  994  find ../data/ | wc -l
+  995  find ../data/ -name "30.txt" 
+  996  find ../data/ -name "n30.txt" 
+  997  find /home/eeb177-student/ -name "classwork-tues-1-17-2017.txt" 
+  998  cd ..
+  999  cd data
+ 1000  cd ../sandbox/
+ 1001  find ../D -iname "*classwork*"
+ 1002  ../../
+ 1003  find ../../
+ 1004  ../../../
+ 1005  find ../../../
+ 1006  find ../../../../
+ 1007  ../../../../../
+ 1008  find ../../../../../
+ 1009  find ../../../../../../../
+ 1010  cd eeb-177
+ 1011  cd Desktop
+ 1012  cd eeb-177
+ 1013  cd CSB
+ 1014  cd unix
+ 1015  cd sandbox
+ 1016  find ../../../../../Desktop/ -iname "*class-assignments*" >> ~/Desktop/eeb-177/class-assignments/classwork-tues-1-24-2017.txt 
+ 1017  find ../../../../../Desktop/ -iname "*classwork*" 
+ 1018  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-tues-1-24-2017.txt 
+ 1019  cd ..
+ 1020  cd class-assignments/
+ 1021  git add classwork-tues-1-24-2017.txt 
+ 1022  git commit -m "appending over files"
+ 1023  git push
+ 1024  cd ..
+ 1025  cd CSB
+ 1026  cd unix
+ 1027  cd sandbox/
+ 1028  ls -l
+ 1029  touch permission.txt
+ 1030  ls -l
+ 1031  chmod u=rwx permission.txt 
+ 1032  ls -l
+ 1033  history n
+ 1034  history 50
+ 1035  history history 100
+ 1036  history 100
+ 1037  history 100 >> ~/Desktop/eeb-177/class-assignments/classwork-tues-1-24-2017.txt 
