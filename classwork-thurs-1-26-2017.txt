@@ -1,0 +1,100 @@
+ 1067  ls
+ 1068  Desktop
+ 1069  cd Desktop
+ 1070  cd eeb-177
+ 1071  cd lab-work
+ 1072  cd exercise-3
+ 1073  git add Exercise-3-hw.ipynb 
+ 1074  git commit -m "adding Exercise-3-hw to folder"
+ 1075  git push
+ 1076  cd Desktop 
+ 1077  cd eeb-177
+ 1078  cd class-assignments
+ 1079  touch classwork-thurs-1-26-2017.txt
+ 1080  git add classwork-thurs-1-26-2017.txt 
+ 1081  git commit -m "new classwork file 1-26-2017"
+ 1082  git push
+ 1083  ls -l
+ 1084  touch permission.txt
+ 1085  ls -l
+ 1086  chmod u=rwx permission.txt 
+ 1087  ls -l
+ 1088  gedit 
+ 1089  ls -l
+ 1090  $PATH
+ 1091  pwd
+ 1092  cd ..
+ 1093  mkdir scripts
+ 1094  ls
+ 1095  cd scripts/
+ 1096  ls
+ 1097  mv ~/Desktop/eeb-177/class-assignments/dir.sh 
+ 1098  ls dir.sh
+ 1099  mv ~/Desktop/eeb-177/class-assignments/dir.sh .^C
+ 1100  ls dir.sh
+ 1101  ls
+ 1102  cd 
+ 1103  ls
+ 1104  cd scripts
+ 1105  ls
+ 1106  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+ 1107  cd ..
+ 1108  cd Desktop
+ 1109  cd eeb-177/
+ 1110  cd class-assignments/
+ 1111  gedit
+ 1112  ls -l
+ 1113  cd ..
+ 1114  cd scripts
+ 1115  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+ 1116  ls
+ 1117  cd ..
+ 1118  gedit 
+ 1119  ls -l
+ 1120  cd
+ 1121  gedit .profile
+ 1122  sudo reboot
+ 1123  $PATH
+ 1124  cd Desktop
+ 1125  dir.sh
+ 1126  cd ..
+ 1127  cd scripts
+ 1128  ls -l
+ 1129  chmod u+x dir.sh
+ 1130  ls -l
+ 1131  cd ..
+ 1132  cd Desktop
+ 1133  dir.sh
+ 1134  sudo gedit dir.sh
+ 1135  dir.sh
+ 1136  cd ..
+ 1137  cd scripts
+ 1138  sudo gedit dir.sh
+ 1139  cd 
+ 1140  cd Desktop
+ 1141  dir.sh
+ 1142  cd
+ 1143  cd scripts
+ 1144  ls
+ 1145  gedit in_class_scripts.sh
+ 1146  ls -l
+ 1147  chmod u+x in_class_scripts.sh 
+ 1148  ls -l
+ 1149  cd ~/Desktop/eeb-177/lab-work/
+ 1150  date
+ 1151  in_class_scripts.sh 
+ 1152  cd ..
+ 1153  cd scritps
+ 1154  cd scripts 
+ 1155  git init
+ 1156  git remote add origin https://github.com/chriscast123/scripts.git
+ 1157  git push -u origin master
+ 1158  cd ..
+ 1159  cd Desktop/
+ 1160  cd eeb-177/
+ 1161  cd clas
+ 1162  cd class-assignments/
+ 1163  ls
+ 1164  ipython
+ 1165  history 100 
+ 1166  history 100 >> classwork-thurs-1-26-2017.txt 
